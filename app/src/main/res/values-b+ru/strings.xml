@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ChangeLocaleExample</string>
+    <string name="hello_world">Это приложение может изменять язык</string>
+    <string name="helloworld">Здравствуй! В этом приложении я попытался изменить текст в этом действии на четыре параметра, доступные на кнопках. Текст может быть изменен на четыре упомянутых языка. "</string>
+    <string name="btn_en">английский</string>
+    <string name="btn_ru">русский</string>
+    <string name="btn_gu">Гуджарати</string>
+
+    <string name="btn_hi">хинди</string>
+</resources>
+
+
+
+
+
+
+
+
+

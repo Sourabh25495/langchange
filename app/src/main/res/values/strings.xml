@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ChangeLocaleExample</string>
+    <string name="hello_world">This app can change language</string>
+    <string name="helloworld">Hi! In this app I have tried to change the text in this activity to the four options available on the buttons. The text can be changed to the four languages mentioned.</string>
+    <string name="btn_en">English</string>
+    <string name="btn_ru">Russian</string>
+    <string name="btn_gu">Gujarati</string>
+    <string name="btn_hi">Hindi</string>
+</resources>
+
+
+
+
+
+
+
+
+

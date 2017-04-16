@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ChangeLocaleExample</string>
+    <string name="hello_world">यह भाषा बदलने की सुविधा है</string>
+    <string name="helloworld">नमस्ते! इस ऐप में मैंने इस गतिविधि में टेक्स्ट को बटन पर उपलब्ध चार विकल्पों में बदलने की कोशिश की है। पाठ को चार भाषाओं में बदला जा सकता है। "</string>
+    <string name="btn_en">अंग्रेज़ी</string>
+    <string name="btn_ru">रूसी</string>
+    <string name="btn_gu">गुजराती</string>
+
+    <string name="btn_hi">हिंदी</string>
+</resources>
+
+
+
+
+
+
+
+
+

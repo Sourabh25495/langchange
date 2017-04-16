@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ChangeLocaleExample</string>
+    <string name="hello_world">આ એપ્લિકેશન ભાષા બદલી શકો</string>
+    <string name="helloworld">હાય! આ એપ્લિકેશન હું બટનો પર ઉપલબ્ધ ચાર વિકલ્પો આ પ્રવૃત્તિમાં લખાણ બદલવા માટે પ્રયાસ કર્યો છે. લખાણ ઉલ્લેખ ચાર ભાષાઓમાં બદલી શકાય છે.</string>
+    <string name="btn_en">ઇંગલિશ</string>
+    <string name="btn_ru">રશિયન</string>
+    <string name="btn_gu">ગુજરાતી</string>
+    <string name="btn_hi">હિન્દી</string>
+
+</resources>
+
+
+
+
+
+
+
+
+
