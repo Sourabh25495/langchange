@@ -7,6 +7,7 @@ package com.example.sourabhkulkarni.langchange;
         import android.os.Bundle;
         import android.app.Activity;
         import android.content.SharedPreferences;
+        import android.util.Log;
         import android.view.Menu;
         import android.view.View;
         import android.view.View.OnClickListener;
@@ -44,7 +45,7 @@ public class MainActivity extends Activity implements OnClickListener{
         String langPref = "Language";
         SharedPreferences prefs = getSharedPreferences("CommonPrefs", Activity.MODE_PRIVATE);
         String language = prefs.getString(langPref, "");
-
+        Log.d("Language loaded ",language);
         changeLang(language);
     }
 
