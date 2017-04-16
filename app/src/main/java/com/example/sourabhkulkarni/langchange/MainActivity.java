@@ -14,11 +14,11 @@ package com.example.sourabhkulkarni.langchange;
         import android.widget.TextView;
 
 public class MainActivity extends Activity implements OnClickListener{
-
+    //Declare components from activity main
     private TextView txt_hello, txt_helloworld;
     private Button btn_en, btn_ru, btn_gu, btn_hi;
     private Locale myLocale;
-
+    //initialize everything and set on click listner
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -38,7 +38,7 @@ public class MainActivity extends Activity implements OnClickListener{
 
         loadLocale();
     }
-
+    // Method to set language preference
     public void loadLocale()
     {
         String langPref = "Language";
@@ -56,7 +56,7 @@ public class MainActivity extends Activity implements OnClickListener{
         editor.putString(langPref, lang);
         editor.commit();
     }
-
+    // method to save locale
     public void changeLang(String lang)
     {
         if (lang.equalsIgnoreCase(""))
@@ -80,6 +80,7 @@ public class MainActivity extends Activity implements OnClickListener{
         btn_hi.setText(R.string.btn_hi);
     }
 
+    // method to change language
     @Override
     public void onClick(View v) {
         String lang = "en";
